@@ -8,4 +8,4 @@ def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
 
 def home_page(request):
-    return HttpResponse(request, 'base.html')
+    return render(request, 'base.html')
