@@ -10,10 +10,6 @@ def index(request):
     return HttpResponse(output)
 
 
-def home(request):
-    return render(request, 'base.html')
-
-
 def detail(request, question_id):
     return HttpResponse(f'Currently viewing Question #{question_id}')
 
