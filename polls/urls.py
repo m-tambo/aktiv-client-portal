@@ -1,5 +1,8 @@
 from django.urls import path
 
+# hlep django locate any static files
+from django.conf.urls.static import static 
+
 from . import views
 
 app_name = "polls"
