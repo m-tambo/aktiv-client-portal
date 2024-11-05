@@ -2,6 +2,10 @@ body {
     background: white url("images/dino.png") center;
 }
 
-li a {
-    color: white;
+li {
+    background-color: white;
+    
+    a {
+        color: black;
+    }   
 }
