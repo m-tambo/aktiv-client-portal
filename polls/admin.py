@@ -6,6 +6,7 @@ from .models import Question, Choice
 class ChoiceInline(admin.TabularInline):
     model = Choice
     extra = 3
+    readonly_fields = ['votes']  # this makes votes readonly (only within the inline question view)
 
 
 class QuestionAdmin(admin.ModelAdmin):
@@ -23,3 +24,4 @@ class QuestionAdmin(admin.ModelAdmin):
 
 admin.site.register(Question, QuestionAdmin)
 admin.site.register(Choice)
+ 
