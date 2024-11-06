@@ -11,5 +11,9 @@
 ### Run tests
 `python3 manage.py test <app_name>`
 
-### If making changes to models
+### After making changes to models
 `python3 manage.py makemigrations <app_name>`
+`python3 manage.py migrate`
+
+### After pip installing any new pkgs
+`pip freeze > requirements.txt`
