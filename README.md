@@ -1,6 +1,7 @@
 ### Notes
 - Remember that the entire repo is the Django 'project' (client-portal, in this case.)
 - A Django project can contain more than one app (polls is an app_name, for example.)
+- - Django docs https://docs.djangoproject.com/en/5.1/
 
 ### Create a new app
 `django-admin startproject <app_name> <project_name>`
