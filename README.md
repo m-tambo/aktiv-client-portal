@@ -4,7 +4,13 @@
 - - Django docs https://docs.djangoproject.com/en/5.1/
 
 ### Create a new app
-`django-admin startproject <app_name> <project_name>`
+Cmd: `django-admin startproject <app_name>` from within root dir
+
+### Develop locally
+Git clone this repo. Create/activate virtal env and pip install dependencies.
+`python3 -m venv .venv`
+`source .venv/bin/activate`
+`pip install -r requirements.txt`
 
 ### Run server
 `python3 manage.py runserver`
