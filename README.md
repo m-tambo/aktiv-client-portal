@@ -13,7 +13,7 @@ $ pip install -r requirements.txt
 
 
 ### Create a new app within project
-`$ django-admin startapp <app_name>` from within root dir.
+`$ python3 manage.py startapp <app_name>` from within root dir.
 
 
 ### Run tests
